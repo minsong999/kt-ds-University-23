@@ -31,6 +31,32 @@ public class IfExam2 {
 		 *    그렇지 않다면 "뽀로로 극장판 공룡섬 대모험"을 관람할 수 있다.
 		 */
 		int age2 = 14;
+		if (age2 >= 19) {
+			System.out.println("범죄도시");
+		}
+		else if (age2 >= 15) {
+			System.out.println("엔드게임");
+		}
+		else if (age2 >= 12) {
+			System.out.println("해리포터");
+		}
+		else {
+			System.out.println("뽀로로 극장판 공룡섬 대모험");
+		}
+		
+		if (age2 >= 0 && age2 < 12) {
+			System.out.println("뽀로로 극장판 공룡섬 대모험");
+		}
+		else if (age2 >= 12 && age2 < 15) {
+			System.out.println("해리포터");
+		}
+		else if (age2 >= 15 && age2 < 19) {
+			System.out.println("엔드게임");
+		}
+		else { 
+			System.out.println("범죄도시");
+		}
+		
 		
 	}
 	
